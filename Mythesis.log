@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  30 NOV 2023 19:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  30 NOV 2023 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1163,46 +1163,46 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
 
 
 
-]
-LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 415.
- [1]
+] [1]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 463.
+(Font)              scaled to size 17.71193pt on input line 465.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 463.
+(Font)              scaled to size 17.71193pt on input line 465.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 17.71193pt on input line 463.
+(Font)              scaled to size 17.71193pt on input line 465.
  [2
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 9.83997pt on input line 490.
+(Font)              scaled to size 9.83997pt on input line 492.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 7.37997pt on input line 490.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 490
+(Font)              scaled to size 7.37997pt on input line 492.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 492
 .
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 490
+LaTeX Font Info:    Trying to load font information for U+msb on input line 492
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+)
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 14.75995pt on input line 492.
+ [3
 
 ]
-Overfull \hbox (35.94418pt too wide) in paragraph at lines 500--500
+Overfull \hbox (35.94418pt too wide) in paragraph at lines 502--502
 []  
  []
 
 
-LaTeX Warning: Command \m invalid in math mode on input line 505.
+LaTeX Warning: Command \m invalid in math mode on input line 507.
 
 Missing character: There is no ̉ ("309) in font cmmi8!
 
-Overfull \hbox (16.89104pt too wide) in paragraph at lines 505--506
+Overfull \hbox (16.89104pt too wide) in paragraph at lines 507--508
 []\TU/THSarabunNew(1)/m/n/12 First, the tachyonic scalar field-driven late univ
 erse with dust matter content is considered.
  []
@@ -1603,7 +1603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 392--405
 File: CylinderCoor.png Graphic file (type bmp)
 <CylinderCoor.png>
 
-Overfull \hbox (13.32693pt too wide) in paragraph at lines 590--590
+Overfull \hbox (13.32693pt too wide) in paragraph at lines 592--592
 []  
  []
 
