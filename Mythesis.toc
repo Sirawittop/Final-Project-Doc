@@ -3,9 +3,9 @@
 \contentsline {chapter}{กิตติกรรมประกาศ}{ข}{}%
 \contentsline {chapter}{บทคัดย่อ}{ค}{}%
 \contentsline {chapter}{Abstract}{ง}{}%
-\contentsline {chapter}{สารบัญเรื่อง}{ฉ}{}%
-\contentsline {chapter}{สารบัญตาราง}{ช}{}%
-\contentsline {chapter}{สารบัญภาพ}{ฌ}{}%
+\contentsline {chapter}{สารบัญเรื่อง}{จ}{}%
+\contentsline {chapter}{สารบัญตาราง}{ฉ}{}%
+\contentsline {chapter}{สารบัญภาพ}{ช}{}%
 \vspace *{0.75cm}
 \contentsline {chapter}{\makebox [0.5in][r]{\bf บทที่ 1}\hspace *{0.6cm}{\bf \uppercase {การวิเคราะห์เวกเตอร์}}}{1}{}%
 \vspace *{0pt}
