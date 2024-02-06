@@ -186,7 +186,7 @@
 \newcommand{\@Presentation}{#1}
 }
 
-\newcommand{\advisor}[1]{\gdef\@advisor{#1}}                % Define advisor
+\newcommand{\advisor}[1]{\gdef\@advisor{#1}}              % Define advisor
 \newcommand{\advisoren}[1]{\gdef\@advisoren{#1}}                % Define advisor in English
 \newcommand{\coadvisor}[1]{\gdef\@coadvisor{#1}}                % Define co-advisor
 \newcommand{\coadvisoren}[1]{\gdef\@coadvisoren{#1}}                % Define co-advisor in English
@@ -371,52 +371,21 @@
  \clearpage
 
 
-%    ****************************************
-%    *            Abstract                  *
-%    ****************************************
-%%%%%%%%%%%%%%%%%%%%%% ABSTRACT IN ENGLISH %%%%%%%%%%%%%%%%%%%%%%%
-\newenvironment{abstract}{
-\thispagestyle{empty}
-%\pagenumbering{roman}
- \begin{flushleft}
- \begin{tabular}{p{4cm}ll}
-     {\bf Title}                          &   \hspace{-1mm}\@titleUPen \\% \vspace{7pt}\\
-     {\bf Author}                       &    \@authoren \\%\vspace{7pt}\\
-     {\bf Advisor}                      &    \@advisoren \\%\vspace{7pt}\\
-     {\bf Co-Advisor}				& 		\@coadvisoren \\
-     {\bf Bachelor of Science}      &    Department of {\@majoren}, School of Science, \\%\vspace{7pt}\\
-                                              &    University of Phayao, \@academicyear \\ %\vspace{7pt}\\
-     {\bf Keywords}                   &    \@keywords
-
-%     {\bf Title}                          &   \hspace{-1mm}\@titleUP \\% \vspace{7pt}\\
-%     {\bf Author}                       &    \@author \\%\vspace{7pt}\\
-%     {\bf Advisor}                      &    \@advisor \\%\vspace{7pt}\\
-%     {\bf Academic Paper}           &    Thesis {\@degreeAbb} in {\@major}, \\%\vspace{7pt}\\
-%                                              &    University of Phayao, \@academicyear \\ %\vspace{7pt}\\
-%     {\bf Keywords}                   &    \@keywords
- \end{tabular}
- \end{flushleft}
- \vspace{5mm}
- \begin{center}
- {\large\bf ABSTRACT \\}        % Creates the title of Abstract page
- \vspace{5mm}
- \end{center}
- %\addcontentsline{toc}{chapter}{\protect\noindent ABSTRACT}         % adds Abstract title into Table of Contents
- \dsp}{\clearpage}
-
  %%%%%%%%%%%%%%%%%%% ABSTRACT IN THAI %%%%%%%%%%%%%%%%%%%%%
 \newenvironment{abstractth}{
 \thispagestyle{empty}
 %\pagenumbering{roman}
  \begin{flushleft}
- \begin{tabular}{p{4cm}ll}
-     {\bf ชื่อเรื่อง}                          &   \hspace{-1mm}\@titleUP \\% \vspace{7pt}\\
-     {\bf ผู้ศึกษาค้นคว้า}                       &    \@author \\%\vspace{7pt}\\
-     {\bf อาจารย์ที่ปรึกษา}                      &    \@advisor \\%\vspace{7pt}\\
-     {\bf อาจารย์ที่ปรึกษาร่วม}				&    \@coadvisor \\
-     {\bf วิทยาศาสตรบัณฑิต}                 &    สาขาวิชา{\@major}, คณะวิทยาศาสตร์ \\%\vspace{7pt}\\
-                                              &    มหาวิทยาลัยพะเยา, \@academicyear \\ %\vspace{7pt}\\
-     {\bf คำสำคัญ}                   &    \@keywordsth
+  \begin{tabular}{p{4cm}ll}
+    {\bf ชื่อเรื่อง :}                          &   \hspace{-1mm}\@titleUP \\% \vspace{7pt}\\
+    {\bf ผู้วิจัย :}                       &    \@author \\%\vspace{7pt}\\
+    {\bf ประธานที่ปรึกษา :}                      &    \@advisor \\%\vspace{7pt}\\
+                                            &   ดร.กนกวรรธน์ เซี่ยงเจ็น \\
+    {\bf กรรมการที่ปรึกษา :}				         &    \@coadvisor \\
+                                             &  อาจารย์วรกฤต แสนโภชน์ \\
+    {\bf ประเภทสารนิพนธ์ :}                 &    ภาคนิพนธ์ วท. บ สาขาวิชา วิทยาการคอมพิวเตอร์ , \\%\vspace{7pt}\\
+                                             &    มหาวิทยาลัยพะเยา พ.ศ. 2567\\ %\vspace{7pt}\\
+    {\bf คำสำคัญ : }                   &    \@keywordsth
 
 %     {\bf Title}                          &   \hspace{-1mm}\@titleUP \\% \vspace{7pt}\\
 %     {\bf Author}                       &    \@author \\%\vspace{7pt}\\
@@ -424,7 +393,8 @@
 %     {\bf Academic Paper}           &    Thesis {\@degreeAbb} in {\@major}, \\%\vspace{7pt}\\
 %                                              &    University of Phayao, \@academicyear \\ %\vspace{7pt}\\
 %     {\bf Keywords}                   &    \@keywords
- \end{tabular}
+\end{tabular}
+
  \end{flushleft}
  \vspace{5mm}
  \begin{center}
@@ -736,9 +706,8 @@
 % {\large\bf LIST OF CONTENTS\\}
  \end{center}
 %\ssp
- %{\bf บทที่}\hfill {\bf หน้า}\par\@starttoc{toc}
- \hfill {\bf หน้า}\par\@starttoc{toc}
- %\noindent{\bf บทที่}\hfill {\bf หน้า}\par\@starttoc{toc}
+ {\normalsize\bf บทที่}\hfill {\normalsize\bf หน้า}\par\vspace{0.7cm}\par\@starttoc{toc} 
+
 % \noindent{\bf Chapter}\hfill {\bf Page}\par\@starttoc{toc}
   %\addtocontents{toc}{\protect\vspace*{\tsv}}
  %\addcontentsline{toc}{chapter}{\noindent LIST OF CONTENTS}
@@ -767,7 +736,7 @@
 %  {\large\bf LIST OF FIGURES\\}
  \end{center}
  \ssp
-\hspace{1cm}{\bf ภาพ} \hfill {\bf หน้า}\vspace{0.5cm}\par\@starttoc{lof}
+{\bf ภาพ} \hfill {\bf หน้า}\vspace{0.5cm}\par\@starttoc{lof}
 % \noindent {\bf รูปที่} \hfill {\bf หน้า}\vspace{0.5cm}\par\@starttoc{lof}
 % \noindent {\bf Figure} \hfill {\bf Page}\vspace{0.5cm}\par\@starttoc{lof}
  %\ssp
@@ -797,7 +766,7 @@
 %  {\large\bf LIST OF TABLES\\}
  \end{center}
  \ssp
- \hspace{1cm}{\bf ตาราง} \hfill {\bf หน้า}\par\vspace{0.5cm}\@starttoc{lot}
+ {\bf ตาราง} \hfill {\bf หน้า}\par\vspace{0.5cm}\@starttoc{lot}
 % \noindent {\bf Table} \hfill {\bf Page}\par\vspace{0.5cm}\@starttoc{lot}
  %\ssp
   %\addtocontents{toc}{\protect\vspace*{\tsv}}
@@ -1073,17 +1042,15 @@
   \begin{center}
   \vspace{-1.55cm}
 	 	{\large\bf บทที่ \hspace{3mm}\arabic{chapter}\\}
-%    {\large\bf CHAPTER\hspace{3mm}\Roman{chapter}\\}                             % Make Roman number of the Chapters head
-    \vspace{0.7cm}
+    \vspace{0.5cm}
      {\large\bf\uppercase{#1}}                                                   % Formatting the Chapters
      \vspace{1.0cm}
      \end{center}
   %\addtocontents{toc}{\protect\vspace*{10pt}}
   \addtocontents{toc}{\protect\vspace*{0.75cm}}
   \addcontentsline{toc}{chapter}{\protect
-  \makebox[0.5in][r]{\bf บทที่ \arabic{chapter}}\hspace*{0.6cm}{\bf\uppercase{#1}}}
-%  \addcontentsline{toc}{chapter}{\protect
-%  \makebox[0.5in][r]{\bf\Roman{chapter}}\hspace*{0.7cm}{\bf\uppercase{#1}}}      % Make Roman number of the Chapters in contents
+  \hspace{1cm}{\arabic{chapter}}\hspace*{0.6cm}{\bf\uppercase{#1}}}
+
   \addtocontents{toc}{\protect\vspace*{0pt}}
 }
 
@@ -1195,33 +1162,28 @@
 %  \vspace*{3in}
 %  \noindent
 %  \begin{center}
-%    {\large\bf ประวัติผู้ศึกษาวิจัย}
+%    {\large\bf ประวัติผู้วิจัย}
 %    {\large\bf BIOGRAPHY}
 %  \end{center}
 %    \addtocontents{toc}{\protect\vspace*{\tsv}}
-%    \addcontentsline{toc}{chapter}{\noindent {\bf ประวัติผู้ศึกษาวิจัย}}
+%    \addcontentsline{toc}{chapter}{\noindent {\bf ประวัติผู้วิจัย}}
 %    \addcontentsline{toc}{chapter}{\noindent {\bf BIOGRAPHY}}
   \clearpage
 
 \newpage
  \thispagestyle{empty}
     \begin{center}
-    {\large\bf ประวัติผู้ศึกษาวิจัย}
+    {\large\bf ประวัติผู้วิจัย}
 %    {\large\bf BIOGRAPHY}
     \end{center}
     \addtocontents{toc}{\protect\vspace*{\tsv}}
-    \addcontentsline{toc}{chapter}{\noindent {\bf ประวัติผู้ศึกษาวิจัย}}
+    \addcontentsline{toc}{chapter}{\noindent {\bf ประวัติผู้วิจัย}}
     \vspace{3mm}
     \begin{flushleft}
-    \begin{figure}
-    \centering
-    \includegraphics[width=0.3\textwidth]{\@FigName}
-    \end{figure}
 %    \vspace{3mm}
     \begin{tabular}{lp{10cm}}
      {\bf ชื่อ-นามสกุล} \hspace{1.7cm}      & \@nameprefix  \@author \vspace{7pt}\\
      {\bf วันเดือนปีเกิด}                    &   \@dateofbirth \vspace{7pt}\\
-     {\bf สถานที่เกิด}                   &   \@placeofbirth \vspace{7pt}\\
      {\bf ที่อยู่ปัจจุบัน}                          &   \@address \vspace{7pt}\\
      {\bf เบอร์ติดต่อ}                          &   \@myphone \vspace{7pt}\\
      {\bf อีเมลล์}                          &   \@myemail \vspace{7pt}\\     
@@ -1267,7 +1229,7 @@
 }
 
 \newcommand{\authorEduBG}[3]{                               % adjust education background block
- - {#1} & {#2} & จบปี พ.ศ. {#3}\vspace{7pt}\\
+\hspace{1.25cm}พ.ศ.{#3} \hspace{1.25cm} {#1} & {#2} \vspace{7pt} \\
 }
 
 \def\makePublication{

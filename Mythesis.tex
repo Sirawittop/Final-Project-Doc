@@ -187,7 +187,7 @@
 \DeclareRobustCommand*{\contheading}{%
   \afterpage{{\normalfont\large\bfseries\centering
  {\large\bf สารบัญ (ต่อ)}\\
- \hfill {\normalsize\bf หน้า}\par\bigskip}}}
+ \hspace{10mm}{\normalsize\bf บทที่}\hfill {\normalsize\bf หน้า}\par\vspace{0.7cm}}}}
 %%%%%%%%%%%%%%%
 \DeclareRobustCommand*{\figcontheading}{%
   \afterpage{{\normalfont\large\bfseries\centering
@@ -275,15 +275,12 @@ Application for Nursing shift scheduling
 \authoren{Sirawit}{Kamchoom}
 
 
-% your figure ใส่ไฟล์รูปของผู้เขียน
-\myfig{CylinderCoor.png}
-
 % ชื่ออาจารย์ที่ปรึกษา
-\advisor{ดร.พงศพัศ แรงดี}                                % advisor
+\advisor{อาจารย์ธรรมรัตน์ ธรรมา}                    % advisor
 \advisoren{Dr.Phongsaphat Rangdee}
 
 % ชื่ออาจารย์ที่ปรึกษาร่วม
-\coadvisor{ดร.ชลธิชา กฤษณ์เพ็ชร}
+\coadvisor{อาจารย์วรกฤต แสนโภชน์}
 \coadvisoren{Dr.Chonticha Kritpetch}
 
 %ชื่อปริญญา
@@ -308,7 +305,7 @@ Application for Nursing shift scheduling
 
 % คำสำคัญ ภาษาไทย  และภาษาอังกฤษ
 \keywordsth{                                                      % keywords in Thai คำสำคัญ ภาษาไทย ควรมีแค่ 3-4 คำ
-            แก๊สแชปลีจิน, พลังงานมืด, สนามสเกลาร์, เอกภพที่เร่งออก
+            จัดตารางเวรพยาบาล, จัดตาราง, เวรพยาบาล , เว็บแอปพลิเคชัน, พยาบาล
          }
 \keywords{						% Keywords in English คำสำคัญ ภาษาอังกฤษ ไม่ควรยาวมาก และควรมีแค่ 3-4 คำ
 			Chaplygin Gas, Dark Energy, Accelerating Universe, Phantom Power-Law
@@ -320,18 +317,18 @@ Application for Nursing shift scheduling
 %%            ข้อมูลประวัติส่วนตัว					%%
 %%-----------------------------------------------
 % your birth date วันเดือนปีเกิด
-\dateofbirth{26 มิถุนายน 2540}
+\dateofbirth{20 มิถุนายน 2546}
 % place of your birth  สถานที่เกิด
-\placeofbirth{จังหวัดพะเยา, ประเทศไทย}
+\placeofbirth{จังหวัดแม่ฮ่องสอน, ประเทศไทย}
 % present address (province and country)	จังหวัดปัจจุบัน และประเทศ
-\provinceTH{จังหวัดพะเยา, ประเทศไทย}                  
+\provinceTH{จังหวัดเชียงราย, ประเทศไทย}                  
 % your current address	ที่อยู่ตามทะเบียนบ้าน หรือที่ติดต่อได้
-\address{เลขที่ 19 หมู่ 2 ตำบลแม่กา อำเภอเมือง จังหวัดพะเยา}
-\zipcode{56000}		% รหัสไปรษณีย์
+\address{เลขที่ 182 หมู่ 6 ตำบลผางาม อำเภอเวียงชัย จังหวัดเชียงราย}
+\zipcode{57210}		% รหัสไปรษณีย์
 % Phone number  เบอร์โทรปัจจุบัน
-\myphone{081-2345679}
+\myphone{099-6633516}
 % Email อีเมลที่ใช้อยู่
-\myemail{myemail@mymail.com}
+\myemail{sirawit.code@gmail.com}
 
 % your working place สถานที่ทำงาน (ถ้ามี)
 %\workplace{}
@@ -346,8 +343,8 @@ Application for Nursing shift scheduling
 
 % Education Background การศึกษาที่ผ่านมา
 \EduBG{         
-\authorEduBG{มัธยมศึกษาตอนต้น}{โรงเรียนมัธยมศึกษาตอนต้น อำเภอเมือง จังหวัดพะเยา}{2552}
-\authorEduBG{มัธยมศึกษาตอนปลาย}{โรงเรียนมัธยมศึกษาตอนปลาย อำเภอเมือง จังหวัดพะเยา}{2555}
+\authorEduBG{มัธยมศึกษาตอนต้น}{โรงเรียนสามัคคีวิทยาคม อำเภอเมือง จังหวัดเชียงราย}{2560}
+\authorEduBG{มัธยมศึกษาตอนปลาย}{โรงเรียนสามัคคีวิทยาคม อำเภอเมือง จังหวัดเชียงราย}{2563}
 }
 
 %Publication List  รายการผลงานตีพิมพ์ (ถ้ามี)
@@ -405,16 +402,11 @@ Application for Nursing shift scheduling
 
 \newpage
 \setcounter{page}{1}
-%\addtocontents{toc}{\protect\contentsline{chapter}{หน้าอนุมัติ}{\thepage}\protect}
-\addcontentsline{toc}{chapter}{\protect หน้าอนุมัติ\protect}
 \thispagestyle{empty}
 
 % ใส่ชื่อเรื่องการศึกษาอิสระ
 อาจารย์ที่ปรึกษาและประธานหลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์
-คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยา ได้พิจารณาภาคนิพนธ์ เรื่อง
-“แอปพลิเคชันจัดตารางเวรพยาบาล (Application for Nursing shift scheduling)” เห็นสมควรรับ เป็นส่วนหนึ่งของ
-การศึกษา รายวิชา 225492 โครงงานวิทยาการคอมพิวเตอร์ ภาคการศึกษาต้น ปีการศึกษา
-2567 มหาวิทยาลัยพะเยา
+คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยาได้พิจารณาภาคนิพนธ์ เรื่อง “แอปพลิเคชันจัดตารางเวรพยาบาล” เห็นสมควรรับ เป็นส่วนหนึ่งของการศึกษารายวิชา 225492 โครงงานวิทยาการคอมพิวเตอร์ ภาคการศึกษาต้น ปีการศึกษา 2567 มหาวิทยาลัยพะเยา
 %Has been approved by the Graduate School as partial fulfillment of the requirements
 %for the Doctor of Philosophy Degree in Theoretical Physics\\ of Naresuan University.\\
 \vskip0.6cm
@@ -422,31 +414,35 @@ Application for Nursing shift scheduling
 \begin{center}
 %\textbf{คณะกรรมการสอบ}\vskip1cm
 %\textbf{Oral Defense Committee}\vskip1cm
-\vskip2.5cm
+\vskip2.0cm
 
 ...........................................................................\\
-(ดร.ศุภกร จันเลน)\\		% ใส่ชื่อประธานกรรมการสอบ
-ประธานกรรมการสอบ \\ 
-\vskip2.5cm
+(อาจารย์ธรรมรัตน์ ธรรมา)\\		% ใส่ชื่อประธานกรรมการสอบ
+อาจารย์ที่ปรึกษา \\ 
+\vskip2.0cm
 
 ...........................................................................\\
-(ดร.พงศพัศ แรงดี)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาหลัก
-กรรมการและอาจารย์ที่ปรึกษา \\ 	
-\vskip2.5cm
+(ดร.กนกวรรธน์ เซี่ยงเจ็น)\\		% ใส่ชื่อประธานกรรมการสอบ
+อาจารย์ที่ปรึกษา \\ 
+\vskip2.0cm
 
 ...........................................................................\\
-(ดร.วัชราวุฒิ กฤตินธรรม)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาร่วม 
+(อาจารย์วรกฤต แสนโภชน์)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาหลัก
+กรรมการ \\ 	
+\vskip2.0cm
+
+...........................................................................\\
+(อาจารย์วรกฤต แสนโภชน์)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาร่วม 
 กรรมการ \\ 
-\vskip2.5cm
+\vskip2.0cm
 
 
 %\textbf{ตรวจสอบแล้ว}\vskip1cm
 
 ...........................................................................\\
-(รองศาสตราจารย์ ดร.ชยันต์ บุณยรักษ์)\\
-คณบดีคณะวิทยาศาสตร์\\
-ตุลาคม 2565\\
-ลิขสิทธิ์เป็นของมหาวิทยาลัยพะเยา \\
+(อาจารย์ธนวัฒน์ แซ่เอียบ)\\
+ประธานหลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิทยาการคอมพิวเตอร์\\
+คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยา \\
 %\afterpage{\blankpage}
 %\copyrightpage
 \end{center}
@@ -461,7 +457,6 @@ Application for Nursing shift scheduling
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 %\addtocontents{toc}{\protect\contentsline{chapter}{กิตติกรรมประกาศ}{\thepage}\protect}
-\addcontentsline{toc}{chapter}{\protect กิตติกรรมประกาศ\protect}
 \begin{acknowledgement}     % acknowledgement environment, this is optional
 \baselineskip=8mm
 \setcounter{page}{2}
@@ -488,7 +483,6 @@ Application for Nursing shift scheduling
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 %\addtocontents{toc}{\protect\contentsline{chapter}{บทคัดย่อ}{\thepage}\protect}
-\addcontentsline{toc}{chapter}{\protect บทคัดย่อ\protect}
 \begin{abstractth}	% เขียนบทคัดย่อภาษาไทย
 
 บทคัดย่อภาษาไทย เขียนตรงนี้
@@ -497,17 +491,7 @@ Application for Nursing shift scheduling
 \end{abstractth}
 
 \newpage
-%\addtocontents{toc}{\protect\contentsline{chapter}{ABSTRACT}{\thepage}\protect}
-\addcontentsline{toc}{chapter}{\protect Abstract\protect}
-\begin{abstract} % เขียนบทคัดย่อภาษาอังกฤษ
-\baselineskip=8mm
 
-Our universe today is under the accelerating expansion phase. Most physicists and cosmologists believe that this behavior is due to an unknown form of energy known as dark energy. There are many models proposed to explain this behavior of the universe. In our work, we consider the two different cosmological models in the scenario of canonical and phantom power-law cosmology.
-
-First, the tachyonic scalar field-driven late universe with dust matter content is considered. The cosmic expansion is modeled with power-law and phantom power-law expansion at late time, i.e. $z \lesssim 0.45$. WMAP7 and its combination with other data are used to constraint the model. The forms of potential and the field solution are different for quintessence and tachyonic cases. Power-law cosmology model (driven by either quintessence or tachyonic field) predicts an equation of state parameter that does not match the observed value and hence the power-law model is excluded for both quintessence and tachyonic field. In the opposite, the phantom power-law model predicts agreeing valued of equation of state parameter with the observational data for both quintessence and tachyonic cases, i.e. $w_{\phi, 0}  = -1.49^{+11.64}_{-4.08}$ (WMAP7+BAO+$H_0$) and  $ w_{\phi, 0}  = -1.51^{+3.89}_{-6.72} $  (WMAP7).  The phantom-power law exponent $\beta$ must be less than about -6, so that the $-2 < w_{\phi, 0} < -1$. The phantom power-law tachyonic potential is reconstructed. We found that dimensionless potential slope variable $\Gamma$  at present is about 1.5. The tachyonic potential reduces to $V= V_0\phi^{-2}$ in the limit $\Omega_{\m, 0} \rightarrow 0$.
-
-
-\end{abstract}
 %\maketitle
 \renewcommand{\arraystretch}{1}
 
@@ -522,7 +506,6 @@ First, the tachyonic scalar field-driven late universe with dust matter content 
 % สร้างสารบัญ
 \tableofcontents
 % เพิ่มสารบัญเรื่อง ในสารบัญ
-\addcontentsline{toc}{chapter}{\protect สารบัญเรื่อง\protect}
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -531,7 +514,6 @@ First, the tachyonic scalar field-driven late universe with dust matter content 
 % สร้างสารบัญตาราง
 \listoftables
 % เพิ่มสารบัญตารางในสารบัญ
-\addcontentsline{toc}{chapter}{\protect สารบัญตาราง\protect}
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -540,7 +522,6 @@ First, the tachyonic scalar field-driven late universe with dust matter content 
 % สร้างสารบัญภาพ
 \listoffigures
 % เพิ่มสารบัญภาพในสารบัญ
-\addcontentsline{toc}{chapter}{\protect สารบัญภาพ\protect}
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -568,8 +549,7 @@ First, the tachyonic scalar field-driven late universe with dust matter content 
 %\include{chap8}
 %\include{chap9}
 \include{references}
-\appendix
-\include{appendix}
+
 
 
 %\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
