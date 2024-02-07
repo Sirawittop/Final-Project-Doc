@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  6 FEB 2024 15:39
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  7 FEB 2024 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,7 +716,7 @@ Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 54.
+(Font)              scaled to size 14.75995pt on input line 53.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pst-plot/pst-plot.sty
 Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
@@ -1019,100 +1019,100 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
  (./chap1.aux) (./chap2.aux) (./references.aux))
 \openout1 = `Mythesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 371.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 370.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-71.
+70.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 371.
-LaTeX Font Info:    ... okay on input line 371.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 370.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 37
-1.
+0.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    ... okay on input line 370.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 371.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 371.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 371.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 371.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 371.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 371.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 371.
-LaTeX Font Info:    Redeclaring math accent \check on input line 371.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 371.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 371.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 371.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 371.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 370.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 370.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 370.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 370.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 370.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 370.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 370.
+LaTeX Font Info:    Redeclaring math accent \check on input line 370.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 370.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 370.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 370.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 370.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 371.
+(Font)              `operators' in the math version `normal' on input line 370.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/THSarabunNew(0)/m/n on input line 37
-1.
+0.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 371.
+(Font)              `operators' in the math version `bold' on input line 370.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/THSarabunNew(0)/m/n on input line 3
-71.
+70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/THSarabunNew(0)/m/n --> TU/THSarabunNew(0)/m/n on in
-put line 371.
+put line 370.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/THSarabunNew(0)/m/it on input line 
-371.
+370.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/THSarabunNew(0)/b/n on input line 3
-71.
+70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 371.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 370.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 371.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 370.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/THSarabunNew(0)/m/n --> TU/THSarabunNew(0)/b/n on in
-put line 371.
+put line 370.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/THSarabunNew(0)/b/it on input line
- 371.
+ 370.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 371.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 370.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 371.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 370.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {thai/target}  =>  {thai}
@@ -1123,7 +1123,7 @@ Package caption Info: floatrow package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package translations Info: no dictionary file `translations-basic-dictionary-th
-ai.trsl' found. on input line 371.
+ai.trsl' found. on input line 370.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1161,42 +1161,42 @@ ai.trsl' found. on input line 371.
 
 \thai@year=\count385
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 384.
+(Font)              scaled to size 21.25432pt on input line 383.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 385.
+(Font)              scaled to size 21.25432pt on input line 384.
 [1
 
 
 
 ] [1]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 460.
+(Font)              scaled to size 17.71193pt on input line 459.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 460.
+(Font)              scaled to size 17.71193pt on input line 459.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 17.71193pt on input line 460.
+(Font)              scaled to size 17.71193pt on input line 459.
  [2
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 9.83997pt on input line 486.
+(Font)              scaled to size 9.83997pt on input line 485.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 7.37997pt on input line 486.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 486
+(Font)              scaled to size 7.37997pt on input line 485.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 485
 .
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 486
+LaTeX Font Info:    Trying to load font information for U+msb on input line 485
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 486.
+(Font)              scaled to size 14.75995pt on input line 485.
 
-Overfull \hbox (3.78223pt too wide) in paragraph at lines 486--486
+Overfull \hbox (3.78223pt too wide) in paragraph at lines 485--485
 []  
  []
 
@@ -1234,15 +1234,15 @@ Overfull \hbox (3.78223pt too wide) in paragraph at lines 486--486
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/sl' in size <12> not avail
 able
 (Font)              Font shape `TU/THSarabunNew(1)/m/it' tried instead on input
- line 542.
+ line 541.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 542.
+(Font)              scaled to size 14.75995pt on input line 541.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/sl' in size <12> not avail
 able
 (Font)              Font shape `TU/THSarabunNew(0)/m/it' tried instead on input
- line 542.
+ line 541.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 542.
+(Font)              scaled to size 14.75995pt on input line 541.
  [2]
 \openout2 = `chap2.aux'.
 
@@ -1260,7 +1260,7 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 
 
 ]
-Overfull \hbox (58.96835pt too wide) in paragraph at lines 572--572
+Overfull \hbox (58.96835pt too wide) in paragraph at lines 571--571
 []  
  []
 

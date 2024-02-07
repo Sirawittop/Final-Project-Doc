@@ -1047,10 +1047,11 @@
      \vspace{1.0cm}
      \end{center}
   %\addtocontents{toc}{\protect\vspace*{10pt}}
-  \addtocontents{toc}{\protect\vspace*{0.75cm}}
+  \addtocontents{toc}{\protect\vspace*{0.1cm}}
   \addcontentsline{toc}{chapter}{\protect
-  \hspace{1cm}{\arabic{chapter}}\hspace*{0.6cm}{\bf\uppercase{#1}}}
-
+  \hspace{0.4cm}{\bf\arabic{chapter}}\hspace*{0.6cm}{\bf\uppercase{#1}}}
+%  \addcontentsline{toc}{chapter}{\protect
+%  \makebox[0.5in][r]{\bf\Roman{chapter}}\hspace*{0.7cm}{\bf\uppercase{#1}}}      % Make Roman number of the Chapters in contents
   \addtocontents{toc}{\protect\vspace*{0pt}}
 }
 
@@ -1086,7 +1087,7 @@
   \refstepcounter{subsection}
  % \vspace{0.5cm}
   \noindent
-  {{\textbf{\thesubsection\space\space{#1}}}}
+  {{{\thesubsection\space\space{#1}}}}
   % \addtocontents{toc}{\protect\vspace{-10pt}}   % activate to put in toc
   % \addcontentsline{toc}{subsection}{\protect    % activate to put in toc
    %    \makebox[0.3in][r]{\thesubsection.} \hspace*{3pt}#1}    % activate to put in toc
@@ -1099,7 +1100,7 @@
 \renewcommand{\subsubsection}[1]{%
   \refstepcounter{subsubsection}
   \noindent
-   {\textbf{\thesubsubsection\space\space{#1.}}}
+   {{\thesubsubsection\space\space{#1.}}}
  }
 
 
