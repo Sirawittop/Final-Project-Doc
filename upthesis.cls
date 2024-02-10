@@ -1,79 +1,14 @@
-
-%%% UPTHESIS DOCUMENT CLASS FiLE --  Version 1 (Updated on 17/10/2022 by Phongsaphat Rangdee)
-%%% This class file is for University of Phayao Thesis only .
-%%% You can edit anything for your format
-%%% Revised from IITTHESIS DOCUMENT CLASS FiLE
-%%% NOTE: This class for THAI format thesis ONLY.
-%%% =========================================================================================
-%%%   IITTHESIS DOCUMENT CLASS FiLE --  Version 2 (Updated on 11/11/2003 by Babak Hamidian)
-%%%   for LaTeX version 2e - 05/30/2003
-%%% =========================================================================================
-%%%--NNNNNN--NNNNNNNN--NNNNNNN--NNNNNNN--%
-%%%----NNNN----NNNN------NNNN----NNNN----%
-%%%----NNNNNN--NNNN------NNNN----NNNN----%
-%%%----NNNNNN--NNNN------NNNN----NNNN----%
-%%%----NNNNNNNNNNNN------NNNN----NNNN----%
-%%%----NNNN--NNNNNN------NNNN----NNNN----%
-%%%----NNNN--NNNNNN------NNNN----NNNN----%
-%%%----NNNN----NNNN------NNNN----NNNN----%%%%%%%%%%%
-%%%--NNNNNNNN--NNNN--------NNNNNNNN------Generated-%
-%%%------------------------------------------by----%
-%%%----------------THESIS---------------------%
-%%% =========================================================================================
-%%%  WHAT IS NEW IN THIS VERSION?
-%%%
-%%% This version editted by Phongsaphat Rangdee for the following
-%%% Graduate School of Naresuan University thesis format and use for
-%%% the Undergraduate students at University of Phayao since 2022.
-%%% JUST FOR THAI LANGUAGE ONLY!!!
-%%% =========================================================================================
-%%% =========================================================================================
-%%%  @LaTeX-class-file{
-%%%     filename                    = "upthesis.cls", (changing from ilthesis.cls)
-%%%     date                        = "October 2022",
-%%%     original written by         = "Ozlem KALINLI"
-%%%     address                     = "Illinois Institute of Technology
-%%%                                    3300 S. Federal Street
-%%%                                    Chicago, IL 60616 USA",
-%%%     e-mail                      = "kaliozl@iit.edu",
-%%%     codetable                   = "ISO/ASCII",
-%%%     keywords                    = "LaTeX,IIT,thesis",
-%%%     notes                       = "This file provides the LaTeX2e style iithesis.cls
-%%%                                    for formating graduate thesis at the Illinois
-%%%                                    Institute of Technology. It was written by
-%%%                                    Ozlem Kalinli. For an example of its use, see the
-%%%                                    file: iitsample.tex, and help files given in pdf format".
-%%%
-%%%     Revised by                  = "Phongsaphat Rangdee"
-%%%                                    Department of Physics, School of Science, University of Phayao, Phayao Province THAILAND
-%%%                                    Email: thesun.r19@gmail.com
-%%%  }
-%%% ==========================================================================================
-
 \typeout{Document Class `IIT_THESIS' <May 2003>.}
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{upthesis}[2022/10/17, University of Phayao Thesis Class]
 
-%   **********************************
-%   * Interline Spacing Commands     *
-%   **********************************
-% \ssp : single-spacing
-% \dsp : double-spacing
-% \tsp : triple-spacing
 \renewcommand{\normalsize}{\@normalsize}
 \def\ssp{\def\baselinestretch{1.0}\large\normalsize}
 \def\dsp{\def\baselinestretch{1.66}\large\normalsize}
 \def\tsp{\def\baselinestretch{2.6}\large\normalsize}
 
 \def\tsv{0.5cm}
-
-%    ****************************************
-%    * Declaration of Options              *
-%    ****************************************
-%
-% Option values are declared first.
-% Defaults are set to: 12 point, onesided, final (i.e., not draft) mode
 
 \newcommand\@ptsize{}
 \newcommand{\draftmark}{\dsp}
@@ -91,7 +26,6 @@
 \def\ds@draft{\overfullrule 5pt}
 \@options
 
-% This command inputs the font file that is selected depending on size information.
 \input font1\@ptsize.clo\relax
 
 
@@ -609,7 +543,7 @@
 \def\thechapter       {\arabic{chapter}}
 \def\thesection       {\thechapter.\arabic{section}}
 \def\thesubsection    {\thesection.\arabic{subsection}}
-%\def\thesubsubsection {\arabic{subsubsection}}
+\def\thesubsubsection {\arabic{subsubsection}}
 \def\thesubsubsection {\thesubsection.\arabic{subsubsection}}
 \def\theappendix      {\Alph{appendix}}
 
@@ -706,7 +640,7 @@
 % {\large\bf LIST OF CONTENTS\\}
  \end{center}
 %\ssp
- {\normalsize\bf บทที่}\hfill {\normalsize\bf หน้า}\par\vspace{0.7cm}\par\@starttoc{toc} 
+ {\normalsize\bf บทที่}\hfill {\normalsize\bf หน้า}\par\vspace{0.5cm}\par\@starttoc{toc} 
 
 % \noindent{\bf Chapter}\hfill {\bf Page}\par\@starttoc{toc}
   %\addtocontents{toc}{\protect\vspace*{\tsv}}
@@ -1074,7 +1008,7 @@
    \fi
   \addtocontents{toc}{\protect\vspace{0pt}}
   \addcontentsline{toc}{section}{\protect
-  \makebox[0.1in][r]{\thesection} \hspace*{3pt}#1}
+  \makebox[0cm][r]{\textbf{\thesection}} #1}
 %  \thesection\hspace*{13pt}#1}
   \vspace{-2.5mm}
 }

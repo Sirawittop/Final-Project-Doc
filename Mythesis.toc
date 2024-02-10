@@ -3,14 +3,49 @@
 \contentsline {chapter}{\hspace {0.4cm}{\bf 1}\hspace *{0.6cm}{\bf \uppercase {บทนำ}}}{1}{}%
 \vspace *{0pt}
 \vspace {0pt}
-\contentsline {section}{\makebox [0.1in][r]{1.1} \hspace *{3pt}ที่มาและความสำคัญของปัญหา}{1}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ที่มาและความสำคัญของปัญหา}{1}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0.1in][r]{1.2} \hspace *{3pt}วัตถุประสงค์}{2}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} {วัตถุประสงค์}}{2}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0.1in][r]{1.3} \hspace *{3pt}แนวคิดและหลักการ}{2}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} แนวคิดและหลักการ}{2}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ขอบเขตการศึกษา}{2}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ขั้นตอนการดำเนินงาน}{2}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} แผนการดำเนินงาน}{2}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} อุปกรณ์ที่ใช้ดำเนินงาน}{2}{}%
 \vspace *{0.1cm}
-\contentsline {chapter}{\hspace {0.4cm}{\bf 2}\hspace *{0.6cm}{\bf \uppercase {กฎการเคลื่อนที่ของนิวตัน}}}{3}{}%
+\contentsline {chapter}{\hspace {0.4cm}{\bf 2}\hspace *{0.6cm}{\bf \uppercase {เอกสารและงานวิจัยที่เกี่ยวข้อง}}}{3}{}%
 \vspace *{0pt}
-\contentsline {chapter}{\noindent \bf บรรณานุกรม}{4}{}%
-\vspace *{0.5cm}
-\contentsline {chapter}{\noindent {\bf ประวัติผู้วิจัย}}{5}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} แนวทางการจัดตารางเวรและการเบิกเงินค่าตอบแทนนอกเวลาของพยาบาล}{3}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีการวิเคราะห์และออกแบบระบบ SDLC}{3}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ภาษาและเครื่องมือที่ใช้ในการพัฒนา}{3}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีเกี่ยวกับความพึงพอใจ}{3}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} งานวิจัยที่เกี่ยวข้อง}{3}{}%
+\vspace *{0.1cm}
+\contentsline {chapter}{\hspace {0.4cm}{\bf 3}\hspace *{0.6cm}{\bf \uppercase {การวิเคราะห์และการออกแบบระบบ}}}{4}{}%
+\vspace *{0pt}
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบระบบ}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Diagram}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Diagram}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{4}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{4}{}%
+\contentsline {chapter}{\noindent \bf บรรณานุกรม}{5}{}%

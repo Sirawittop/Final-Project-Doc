@@ -1,8 +1,10 @@
-%-\textbf{}%\documentclass[a4paper,12pt]{upthesis}
+% -\textbf{}%\documentclass[a4paper,12pt]{upthesis}
 \documentclass[a4paper,12pt]{upthesis}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{chngcntr}
+
 %\usepackage{natbib}
 % แพคเกจสำหรับสร้าง hyperlink ด้วยคำสั่ง \href{<url>}{<Text to show>}
 %\usepackage[linktocpage=true]{hyperref}       % Create hyperlink with command \href{<url>}{<Text to show>}.
@@ -234,7 +236,6 @@
 %This command is use to setting the stretch of the height of each row in a table.
 % คำสั่งสำหรับตั้งค่าความสูงของแต่ละแถวในตาราง
 %\renewcommand{\arraystretch}{2}
-
 %\usepackage{fancyhdr}   % Customized the heading with command \lhead{}, \rhead{}, \chead{}, \lfoot{}, \rfoot{}, \cfoot{}
 %\DeclareRobustCommand*{\contheading}{%
 %  \afterpage{{\normalfont\large\bfseries\centering
@@ -540,7 +541,7 @@ Application for Nursing shift scheduling
 
 \include{chap1}
 \include{chap2}
-%\include{chap3}
+\include{chap3}
 %\include{chap4}
 %\include{chap5}
 %\include{chap6}
@@ -565,10 +566,12 @@ Application for Nursing shift scheduling
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\renewcommand{\arraystretch}{1}
-\makebiography                          % Generate your biography page
-%\makeWorkExpr                           % Generate your work experiences
-\makeEduBG
+
+% not show ประวัติผู้วิจัย
+% \renewcommand{\arraystretch}{1}
+% \makebiography                          % Generate your biography page
+% %\makeWorkExpr                           % Generate your work experiences
+% \makeEduBG
 %\makePublication
 %\makePresentation
 
