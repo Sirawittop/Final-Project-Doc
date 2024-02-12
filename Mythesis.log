@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  10 FEB 2024 13:13
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  12 FEB 2024 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,36 +992,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 LaTeX Warning: Unused global option(s):
     [a4paper,12pt].
 
-(./Mythesis.aux
-
-Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
-(fontspec)             Sarabun New' with options
-(fontspec)             [Scale=1.23,Ligatures=TeX,Mapping=tex-text,Script=Thai].
-
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
-(fontspec)             New/B/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/I/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/BI/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 3.
-\thai@year=\count384
- (./chap1.aux) (./chap2.aux) (./chap3.aux) (./references.aux))
+No file Mythesis.aux.
 \openout1 = `Mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 371.
@@ -1035,7 +1006,6 @@ LaTeX Font Info:    ... okay on input line 371.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 371.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 71.
-
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -1127,8 +1097,6 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package translations Info: no dictionary file `translations-basic-dictionary-th
-ai.trsl' found. on input line 371.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1164,7 +1132,34 @@ ai.trsl' found. on input line 371.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\thai@year=\count385
+
+Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
+(fontspec)             Sarabun New' with options
+(fontspec)             [Scale=1.23,Ligatures=TeX,Mapping=tex-text,Script=Thai].
+
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
+(fontspec)             Sarabun
+(fontspec)             New/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
+(fontspec)             New/B/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
+(fontspec)             Sarabun
+(fontspec)             New/I/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
+(fontspec)             Sarabun
+(fontspec)             New/BI/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 371.
+\thai@year=\count384
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 (Font)              scaled to size 21.25432pt on input line 384.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
@@ -1207,60 +1202,90 @@ Overfull \hbox (3.78223pt too wide) in paragraph at lines 486--486
 
 [3
 
-] (./Mythesis.toc
-\thai@year=\count386
- [4
-
-])
+]
+No file Mythesis.toc.
 \tf@toc=\write4
 \openout4 = `Mythesis.toc'.
 
- [5] (./Mythesis.lot)
+[4
+
+]
+No file Mythesis.lot.
 \tf@lot=\write5
 \openout5 = `Mythesis.lot'.
 
- [6
+[5
 
-] (./Mythesis.lof)
+]
+No file Mythesis.lof.
 \tf@lof=\write6
 \openout6 = `Mythesis.lof'.
 
- [7
+[6
 
 
 ]
 \openout2 = `chap1.aux'.
 
+ (./chap1.tex
 
-(./chap1.tex [1
+LaTeX Warning: Citation `wuhan:hupei' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation `nurse:covid' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `nurse:Isolation' on page 1 undefined on input line 17.
 
 
 
-])
-LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/sl' in size <12> not avail
-able
-(Font)              Font shape `TU/THSarabunNew(1)/m/it' tried instead on input
- line 542.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 542.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/sl' in size <12> not avail
-able
-(Font)              Font shape `TU/THSarabunNew(0)/m/it' tried instead on input
- line 542.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 542.
- [2]
-\openout2 = `chap2.aux'.
+LaTeX Warning: Citation `people:nurse' on page 1 undefined on input line 18.
 
- (./chap2.tex) [3
 
+LaTeX Warning: Citation `ngeaun:nurse' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation `tarang:nurse' on page 1 undefined on input line 19.
+
+
+LaTeX Warning: Citation `excel:headnurse' on page 1 undefined on input line 20.
+
+
+[1
 
 
 
 ]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/sl' in size <12> not avail
+able
+(Font)              Font shape `TU/THSarabunNew(1)/m/it' tried instead on input
+ line 36.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/it' will be
+(Font)              scaled to size 14.75995pt on input line 36.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/sl' in size <12> not avail
+able
+(Font)              Font shape `TU/THSarabunNew(0)/m/it' tried instead on input
+ line 36.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
+(Font)              scaled to size 14.75995pt on input line 36.
+ [2] [3
+
+] [4] [5
+
+] [6]) [7]
+\openout2 = `chap2.aux'.
+
+ (./chap2.tex [8
+
+
+
+
+] [9
+
+]) [10]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex) [4
+ (./chap3.tex) [11
 
 
 
@@ -1268,8 +1293,8 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 ]
 \openout2 = `references.aux'.
 
- (./references.tex)
-[5
+
+(./references.tex) [12
 
 
 
@@ -1316,15 +1341,23 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {thai/target}  =>  {thai}
 >  {th/target}  =>  {thai}.
  (./Mythesis.aux
-\thai@year=\count387
- (./chap1.aux) (./chap2.aux) (./chap3.aux) (./references.aux)) ) 
+\thai@year=\count385
+ (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./references.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 28433 strings out of 476683
- 608330 string characters out of 5804046
+ 28418 strings out of 476683
+ 608127 string characters out of 5804046
  1857018 words of memory out of 5000000
- 48192 multiletter control sequences out of 15000+600000
+ 48195 multiletter control sequences out of 15000+600000
  517549 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 116i,8n,119p,728b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,119p,745b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mythesis.pdf (13 pages).
+Output written on Mythesis.pdf (19 pages).

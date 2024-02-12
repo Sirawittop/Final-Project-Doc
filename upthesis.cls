@@ -544,6 +544,7 @@
 \def\thesection       {\thechapter.\arabic{section}}
 \def\thesubsection    {\thesection.\arabic{subsection}}
 \def\thesubsubsection {\arabic{subsubsection}}
+\def\thesubsubsubsection {\thesubsection\thesubsubsection.\arabic{subsubsubsection}}
 \def\thesubsubsection {\thesubsection.\arabic{subsubsection}}
 \def\theappendix      {\Alph{appendix}}
 
@@ -1034,7 +1035,7 @@
 \renewcommand{\subsubsection}[1]{%
   \refstepcounter{subsubsection}
   \noindent
-   {{\thesubsubsection\space\space{#1.}}}
+   {{\thesubsubsection\space\space{#1}}}
  }
 
 
