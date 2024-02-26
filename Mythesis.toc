@@ -11,41 +11,41 @@
 \vspace {0pt}
 \contentsline {section}{\makebox [0cm][r]{\textbf {}} ขอบเขตการศึกษา}{3}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ขั้นตอนการดำเนินงาน}{6}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ขั้นตอนการดำเนินงาน}{7}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} แผนการดำเนินงาน}{7}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} แผนการดำเนินงาน}{8}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} อุปกรณ์ที่ใช้ดำเนินงาน}{7}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} อุปกรณ์ที่ใช้ดำเนินงาน}{8}{}%
 \vspace *{0.1cm}
-\contentsline {chapter}{\hspace {0.4cm}{\bf 2}\hspace *{0.6cm}{\bf \uppercase {เอกสารและงานวิจัยที่เกี่ยวข้อง}}}{8}{}%
+\contentsline {chapter}{\hspace {0.4cm}{\bf 2}\hspace *{0.6cm}{\bf \uppercase {เอกสารและงานวิจัยที่เกี่ยวข้อง}}}{9}{}%
 \vspace *{0pt}
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} แนวทางการจัดตารางเวรและการเบิกเงินค่าตอบแทนนอกเวลาของพยาบาล}{9}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} แนวทางการจัดตารางเวรและการเบิกเงินค่าตอบแทนนอกเวลาของพยาบาล}{10}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีการวิเคราะห์และออกแบบระบบ SDLC}{10}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีการวิเคราะห์และออกแบบระบบ SDLC}{11}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ภาษาและเครื่องมือที่ใช้ในการพัฒนา}{10}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ภาษาและเครื่องมือที่ใช้ในการพัฒนา}{11}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีเกี่ยวกับความพึงพอใจ}{10}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีเกี่ยวกับความพึงพอใจ}{11}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} งานวิจัยที่เกี่ยวข้อง}{10}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} งานวิจัยที่เกี่ยวข้อง}{11}{}%
 \vspace *{0.1cm}
-\contentsline {chapter}{\hspace {0.4cm}{\bf 3}\hspace *{0.6cm}{\bf \uppercase {การวิเคราะห์และการออกแบบระบบ}}}{11}{}%
+\contentsline {chapter}{\hspace {0.4cm}{\bf 3}\hspace *{0.6cm}{\bf \uppercase {การวิเคราะห์และการออกแบบระบบ}}}{12}{}%
 \vspace *{0pt}
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบระบบ}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบระบบ}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Diagram}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Diagram}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Diagram}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Diagram}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{11}{}%
-\contentsline {chapter}{\noindent \bf บรรณานุกรม}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{12}{}%
+\contentsline {chapter}{\noindent \bf บรรณานุกรม}{13}{}%

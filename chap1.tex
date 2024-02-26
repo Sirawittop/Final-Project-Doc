@@ -55,7 +55,7 @@
 
 \hspace{1cm}\subsubsection{จัดการโรงพยาบาล}
 
-\hspace{2.5cm}\paragraph{1.2.1 สามารถเพิ่ม ลบ แก้ไข โรงพยาบาลในระบบ}
+\hspace{2.5cm}\paragraph{1.2.1 สามารถเพิ่ม ลบ แก้ไข ข้อมูลเทียบเท่าผู้ดูแลระบบของโรงพยาบาล}
 
 \hspace{1cm}\subsubsection{ดูข้อมูลสถิติการใช้งาน}
 
@@ -97,9 +97,6 @@
 
 \hspace{2.5cm}\paragraph{2.5.1 สามารถดูข้อมูลสถิติการทำงานโดยภาพรวมของพยาบาล}
 
-\hspace{1cm}\subsubsection{จัดการข้อมูลที่ใช้ในการจัดตาราง}
-
-\hspace{2.5cm}\paragraph{2.6.1 สามารถเพิ่ม ลบ แก้ไขข้อมูลที่ใช้ในการจัดตารางเวรของพยาบาล}
 
 
 
@@ -223,8 +220,33 @@
 
 \hspace{2.5cm}\paragraph{5.4.4 สามารถยกเลิกการลาได้}
 
-
-
+\clearpage
+\begin{table}[h]
+    \captionsetup{justification=raggedright,singlelinecheck=false}
+    \centering
+    \fontsize{10}{12}\selectfont	
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l c c c c c}
+            \hline
+            \multicolumn{1}{c}{\multirow{2}{*}{ขอบเขตการทำงาน}} & \multicolumn{5}{c}{ระดับของผู้ใช้ในระบบ} \\ \cline{2-6} 
+            \multicolumn{1}{c}{} & ผู้ดูแลระบบแอปพลิเคชัน & ผู้ดูแลระบบโรงพยาบาล & ผู้อํานวยการโรงพยาบาล & หัวหน้าพยาบาล & พยาบาล \\ \hline
+            จัดการข้อมูลการเข้าสู่ระบบ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark\\ 
+            จัดการโรงพยาบาล & \checkmark & \checkmark & & & \\ 
+            จัดการสิทธิการใช้งาน &\checkmark & \checkmark& & & \\ 
+            จัดการข้อมูลวอร์ด  & \checkmark & \checkmark & & & \\ 
+            ดูข้อมูลสถิติการทำงาน &\checkmark &\checkmark &\checkmark & & \\ 
+            ตั้งค่าระดับพยาบาล &\checkmark &\checkmark & \checkmark & & \\ 
+            จัดตารางเวร & & & &\checkmark & \\ 
+            การอนุมัติ & & &\checkmark &\checkmark & \\ 
+            ตารางเวร & & &\checkmark &\checkmark &\checkmark \\ 
+            แลกเวร & & & &\checkmark & \checkmark\\ 
+            การลา & & & &\checkmark &\checkmark\\ 
+            ขอเวร & & & & &\checkmark \\ 
+            \hline
+        \end{tabular}%
+    }
+    \caption{แสดงขอบเขตการทำงานแบ่งตามประเภทของผู้ใช้ในระบบ}
+\end{table}
 
 
 \section{ขั้นตอนการดำเนินงาน}
@@ -249,30 +271,33 @@
 
 
 
-
+\clearpage
 \hspace{0cm}\section{แผนการดำเนินงาน}
 
-
-\begin{table}[htbp]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|l|l|l|l|l|l|l|}
-\hline
-\multicolumn{1}{|c|}{\multirow{2}{*}{\textcolor[rgb]{0.2,0.2,0.2}{รายการ/กิจกรรม}}} & \multicolumn{7}{c|}{\textcolor[rgb]{0.2,0.2,0.2}{ระยะเวลาการดำเนินงาน}} \\ \cline{2-8} 
-\multicolumn{1}{|c|}{} & \textcolor[rgb]{0.2,0.2,0.2}{ม.ค.} & \textcolor[rgb]{0.2,0.2,0.2}{ก.พ.} & \textcolor[rgb]{0.2,0.2,0.2}{มี.ค.} & \textcolor[rgb]{0.2,0.2,0.2}{เม.ย.} & \textcolor[rgb]{0.2,0.2,0.2}{พ.ค.} & \textcolor[rgb]{0.2,0.2,0.2}{มิ.ย.} & \textcolor[rgb]{0.2,0.2,0.2}{ก.ค.} \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{การเสนอหัวข้อโครงงาน} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{รวบรวมความต้องการของระบบ} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{ศึกษาทฤษฎีที่เกี่ยวข้อง} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{การวิเคราะห์และออกแบบระบบ} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{การพัฒนาต้นแบบ Prototype} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{การพัฒนาระบบ} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{การทดสอบระบบและปรับปรุงแก้ไข} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{สรุปผลการดำเนินงาน} & & & & & & & \\ \hline
-\textcolor[rgb]{0.2,0.2,0.2}{จัดทำรูปเล่มและนำเสนอโครงงาน} & & & & & & & \\ \hline
-\end{tabular}%
-}
-\caption{แผนการดำเนินงาน}
-\end{table}
+\begin{table}[h]
+    \centering
+    \captionsetup{justification=raggedright,singlelinecheck=false}
+    \resizebox{\textwidth}{!}{%
+    \normalsize
+    \begin{tabular}{l c c c c c c c}
+    \hline
+    \multicolumn{1}{c}{รายการ/กิจกรรม} & ม.ค. & ก.พ. & มี.ค. & เม.ย. & พ.ค. & มิ.ย. & ก.ค. \\ \hline
+    การเสนอหัวข้อโครงงาน & & & & & & \\ 
+    รวบรวมความต้องการของระบบ &\checkmark & & & & & & \\ 
+    ศึกษาทฤษฎีที่เกี่ยวข้อง & &\checkmark & & & & & \\ 
+    การวิเคราะห์และออกแบบระบบ & & \checkmark&\checkmark & & & & \\ 
+    การพัฒนาต้นแบบ Prototype &\checkmark &\checkmark &\checkmark & & & & \\ 
+    การพัฒนาระบบ & & &\checkmark &\checkmark &\checkmark & & \\ 
+    การทดสอบระบบและปรับปรุงแก้ไข & & & & & &\checkmark & \\ 
+    สรุปผลการดำเนินงาน & & & & & & &\checkmark \\ 
+    จัดทำรูปเล่มและนำเสนอโครงงาน & & & & & & &\checkmark \\ 
+    \hline
+    \end{tabular}%
+    }
+    \caption{แผนการดำเนินงาน}
+    \end{table}
+    
+        
 
 
 \hspace{0cm}\section{อุปกรณ์ที่ใช้ดำเนินงาน}
