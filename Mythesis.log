@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  27 FEB 2024 12:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  27 FEB 2024 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,7 +992,36 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 LaTeX Warning: Unused global option(s):
     [a4paper,12pt].
 
-No file Mythesis.aux.
+(./Mythesis.aux
+
+Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
+(fontspec)             Sarabun New' with options
+(fontspec)             [Scale=1.23,Ligatures=TeX,Mapping=tex-text,Script=Thai].
+
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
+(fontspec)             Sarabun
+(fontspec)             New/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
+(fontspec)             New/B/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
+(fontspec)             Sarabun
+(fontspec)             New/I/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
+(fontspec)             Sarabun
+(fontspec)             New/BI/OT:script=thai;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 3.
+\thai@year=\count384
+ (./chap1.aux) (./chap2.aux) (./chap3.aux) (./references.aux))
 \openout1 = `Mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 371.
@@ -1006,6 +1035,7 @@ LaTeX Font Info:    ... okay on input line 371.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 371.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 71.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -1097,6 +1127,8 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package translations Info: no dictionary file `translations-basic-dictionary-th
+ai.trsl' found. on input line 371.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1132,34 +1164,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
-(fontspec)             Sarabun New' with options
-(fontspec)             [Scale=1.23,Ligatures=TeX,Mapping=tex-text,Script=Thai].
-
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
-(fontspec)             New/B/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/I/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/BI/OT:script=thai;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 371.
-\thai@year=\count384
+\thai@year=\count385
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 (Font)              scaled to size 21.25432pt on input line 384.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
@@ -1202,56 +1207,32 @@ Overfull \hbox (3.78223pt too wide) in paragraph at lines 486--486
 
 [3
 
-]
-No file Mythesis.toc.
+] (./Mythesis.toc
+\thai@year=\count386
+ [4
+
+])
 \tf@toc=\write4
 \openout4 = `Mythesis.toc'.
 
-[4
-
-]
-No file Mythesis.lot.
+ [5] (./Mythesis.lot)
 \tf@lot=\write5
 \openout5 = `Mythesis.lot'.
 
-[5
+ [6
 
-]
-No file Mythesis.lof.
+] (./Mythesis.lof)
 \tf@lof=\write6
 \openout6 = `Mythesis.lof'.
 
-[6
+ [7
 
 
 ]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex
 
-LaTeX Warning: Citation `wuhan:hupei' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation `nurse:covid' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation `nurse:Isolation' on page 1 undefined on input line 17.
-
-
-
-LaTeX Warning: Citation `people:nurse' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Citation `ngeaun:nurse' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Citation `tarang:nurse' on page 1 undefined on input line 19.
-
-
-LaTeX Warning: Citation `excel:headnurse' on page 1 undefined on input line 20.
-
-
-[1
+(./chap1.tex [1
 
 
 
@@ -1272,16 +1253,16 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 
 ] [4] [5
 
-] [6]
+]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 227.
+(Font)              scaled to size 12.29996pt on input line 228.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 247.
+(Font)              scaled to size 12.29996pt on input line 248.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 8.60997pt on input line 247.
+(Font)              scaled to size 8.60997pt on input line 248.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 6.14998pt on input line 247.
- [7
+(Font)              scaled to size 6.14998pt on input line 248.
+ [6] [7
 
 ]) [8
 
@@ -1295,26 +1276,83 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 
 ] [10
 
-]) [11
+] [11
 
 ]
-\openout2 = `chap3.aux'.
+File: SDLC.jpeg Graphic file (type bmp)
+<SDLC.jpeg>
 
- (./chap3.tex)
 [12
 
-
-
-
 ]
+Overfull \hbox (19.17949pt too wide) in paragraph at lines 121--122
+\TU/THSarabunNew(1)/m/n/12 พัฒนา ไป แล้ว โดย Gin จะ ใช้ customized httprouter ท
+ำให้ มี ประสิทธิภาพ ด้าน ความเร็ว ที่ สูง มาก เป็น framework
+ []
+
+[13
+
+] [14
+
+] [15] [16]) [17]
+\openout2 = `chap3.aux'.
+
+ (./chap3.tex
+File: ER.png Graphic file (type bmp)
+<ER.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [18
+
+
+
+
+] [19]
 \openout2 = `references.aux'.
 
- (./references.tex) [13
+ (./references.tex
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]\TU/THSarabunNew(1)/m/n/12 https:// www.borntodev.com/ 2023/05/09/ gorm-
+ []
+
+
+Overfull \hbox (59.90292pt too wide) in paragraph at lines 32--33
+\TU/THSarabunNew(1)/m/n/12 %E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%
+84%E0%B8%A3/ 
+ []
+
+[20
 
 
 
 
 ]
+Overfull \hbox (81.2377pt too wide) in paragraph at lines 40--41
+[]\TU/THSarabunNew(1)/m/n/12 https:// www.mindphp.com/ %E0%B8%9A%E0%B8%97%E0%B8
+%84%E0%B8%A7%E0%B8%B2%E0%B8%A1/
+ []
+
+
+Overfull \hbox (98.005pt too wide) in paragraph at lines 46--47
+[]\TU/THSarabunNew(1)/m/n/12 https:// blog.cloudnatician.com/ %E0%B8%AD%E0%B8%9
+8%E0%B8%B4%E0%B8%9A%E0%B8%B2%E0%B8%A2-
+ []
+
+
+Overfull \hbox (224.0188pt too wide) in paragraph at lines 46--47
+\TU/THSarabunNew(1)/m/n/12 kubernetes-%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B
+8%90%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%99-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\TU/THSarabunNew(1)/m/n/12 https:// www.hostinglotus.com/ blog/ 2023/03/24/ c
+loud-aws-
+ []
+
+) [21]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1356,23 +1394,16 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {thai/target}  =>  {thai}
 >  {th/target}  =>  {thai}.
  (./Mythesis.aux
-\thai@year=\count385
- (./chap1.aux) (./chap2.aux)
-(./chap3.aux) (./references.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+\thai@year=\count387
+ (./chap1.aux) (./chap2.aux) (./chap3.aux)
+(./references.aux)) ) 
 Here is how much of TeX's memory you used:
- 28438 strings out of 476683
- 608622 string characters out of 5804046
- 1857018 words of memory out of 5000000
- 48207 multiletter control sequences out of 15000+600000
+ 28499 strings out of 476683
+ 609328 string characters out of 5804046
+ 1860018 words of memory out of 5000000
+ 48245 multiletter control sequences out of 15000+600000
  519296 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 116i,11n,119p,745b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,119p,1971b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mythesis.pdf (20 pages).
+Output written on Mythesis.pdf (29 pages).

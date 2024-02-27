@@ -13,39 +13,41 @@
 \vspace {0pt}
 \contentsline {section}{\makebox [0cm][r]{\textbf {}} ขั้นตอนการดำเนินงาน}{7}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} แผนการดำเนินงาน}{8}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} แผนการดำเนินงาน}{7}{}%
 \vspace {0pt}
 \contentsline {section}{\makebox [0cm][r]{\textbf {}} อุปกรณ์ที่ใช้ดำเนินงาน}{8}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ประโยชน์ที่คาดว่าจะได้รับ}{8}{}%
 \vspace *{0.1cm}
 \contentsline {chapter}{\hspace {0.4cm}{\bf 2}\hspace *{0.6cm}{\bf \uppercase {เอกสารและงานวิจัยที่เกี่ยวข้อง}}}{9}{}%
 \vspace *{0pt}
 \vspace {0pt}
 \contentsline {section}{\makebox [0cm][r]{\textbf {}} แนวทางการจัดตารางเวรและการเบิกเงินค่าตอบแทนนอกเวลาของพยาบาล}{10}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีการวิเคราะห์และออกแบบระบบ SDLC}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีการวิเคราะห์และออกแบบระบบ SDLC}{12}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ภาษาและเครื่องมือที่ใช้ในการพัฒนา}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ภาษาและเครื่องมือที่ใช้ในการพัฒนา}{13}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีเกี่ยวกับความพึงพอใจ}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} ทฤษฎีเกี่ยวกับความพึงพอใจ}{15}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} งานวิจัยที่เกี่ยวข้อง}{11}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} งานวิจัยที่เกี่ยวข้อง}{15}{}%
 \vspace *{0.1cm}
-\contentsline {chapter}{\hspace {0.4cm}{\bf 3}\hspace *{0.6cm}{\bf \uppercase {การวิเคราะห์และการออกแบบระบบ}}}{12}{}%
+\contentsline {chapter}{\hspace {0.4cm}{\bf 3}\hspace *{0.6cm}{\bf \uppercase {การวิเคราะห์และการออกแบบระบบ}}}{18}{}%
 \vspace *{0pt}
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบระบบ}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบระบบ}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Diagram}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Diagram}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Diagram}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Diagram}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{12}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{12}{}%
-\contentsline {chapter}{\noindent \bf บรรณานุกรม}{13}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{18}{}%
+\contentsline {chapter}{\noindent \bf บรรณานุกรม}{20}{}%
