@@ -39,15 +39,17 @@
 \vspace {0pt}
 \contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Diagram}{18}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{20}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Use Case Description}{19}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{20}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Diagram}{19}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{20}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Class Description}{21}{}%
 \vspace {0pt}
 \contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Diagram}{21}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{22}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Entity-Relationship Description}{21}{}%
 \vspace {0pt}
-\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{22}{}%
-\contentsline {chapter}{\noindent \bf บรรณานุกรม}{23}{}%
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} Sequence Diagram}{21}{}%
+\vspace {0pt}
+\contentsline {section}{\makebox [0cm][r]{\textbf {}} การออกแบบหน้าจอแสดงผล}{21}{}%
+\contentsline {chapter}{\noindent \bf บรรณานุกรม}{35}{}%
