@@ -4,7 +4,8 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{chngcntr}
-
+\usepackage{booktabs}
+\usepackage{colortbl}
 %\usepackage{natbib}
 % แพคเกจสำหรับสร้าง hyperlink ด้วยคำสั่ง \href{<url>}{<Text to show>}
 %\usepackage[linktocpage=true]{hyperref}       % Create hyperlink with command \href{<url>}{<Text to show>}.
@@ -400,53 +401,53 @@ Application for Nursing shift scheduling
 %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
-\setcounter{page}{1}
-\thispagestyle{empty}
+% \newpage
+% \setcounter{page}{1}
+% \thispagestyle{empty}
 
-% ใส่ชื่อเรื่องการศึกษาอิสระ
-อาจารย์ที่ปรึกษาและประธานหลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์
-คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยาได้พิจารณาภาคนิพนธ์ เรื่อง “แอปพลิเคชันจัดตารางเวรพยาบาล” เห็นสมควรรับ เป็นส่วนหนึ่งของการศึกษารายวิชา 225492 โครงงานวิทยาการคอมพิวเตอร์ ภาคการศึกษาต้น ปีการศึกษา 2567 มหาวิทยาลัยพะเยา
-%Has been approved by the Graduate School as partial fulfillment of the requirements
-%for the Doctor of Philosophy Degree in Theoretical Physics\\ of Naresuan University.\\
-\vskip0.6cm
-\normalsize
-\begin{center}
-%\textbf{คณะกรรมการสอบ}\vskip1cm
-%\textbf{Oral Defense Committee}\vskip1cm
-\vskip2.0cm
+% % ใส่ชื่อเรื่องการศึกษาอิสระ
+% อาจารย์ที่ปรึกษาและประธานหลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์
+% คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยาได้พิจารณาภาคนิพนธ์ เรื่อง “แอปพลิเคชันจัดตารางเวรพยาบาล” เห็นสมควรรับ เป็นส่วนหนึ่งของการศึกษารายวิชา 225492 โครงงานวิทยาการคอมพิวเตอร์ ภาคการศึกษาต้น ปีการศึกษา 2567 มหาวิทยาลัยพะเยา
+% %Has been approved by the Graduate School as partial fulfillment of the requirements
+% %for the Doctor of Philosophy Degree in Theoretical Physics\\ of Naresuan University.\\
+% \vskip0.6cm
+% \normalsize
+% \begin{center}
+% %\textbf{คณะกรรมการสอบ}\vskip1cm
+% %\textbf{Oral Defense Committee}\vskip1cm
+% \vskip2.0cm
 
-...........................................................................\\
-(อาจารย์ธรรมรัตน์ ธรรมา)\\		% ใส่ชื่อประธานกรรมการสอบ
-อาจารย์ที่ปรึกษา \\ 
-\vskip2.0cm
+% ...........................................................................\\
+% (อาจารย์ธรรมรัตน์ ธรรมา)\\		% ใส่ชื่อประธานกรรมการสอบ
+% อาจารย์ที่ปรึกษา \\ 
+% \vskip2.0cm
 
-...........................................................................\\
-(ดร.กนกวรรธน์ เซี่ยงเจ็น)\\		% ใส่ชื่อประธานกรรมการสอบ
-อาจารย์ที่ปรึกษา \\ 
-\vskip2.0cm
+% ...........................................................................\\
+% (ดร.กนกวรรธน์ เซี่ยงเจ็น)\\		% ใส่ชื่อประธานกรรมการสอบ
+% อาจารย์ที่ปรึกษา \\ 
+% \vskip2.0cm
 
-...........................................................................\\
-(อาจารย์วรกฤต แสนโภชน์)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาหลัก
-กรรมการ \\ 	
-\vskip2.0cm
+% ...........................................................................\\
+% (อาจารย์วรกฤต แสนโภชน์)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาหลัก
+% กรรมการ \\ 	
+% \vskip2.0cm
 
-...........................................................................\\
-(อาจารย์วรกฤต แสนโภชน์)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาร่วม 
-กรรมการ \\ 
-\vskip2.0cm
+% ...........................................................................\\
+% (อาจารย์วรกฤต แสนโภชน์)\\			% ใส่ชื่อกรรมการ คนที่เป็นอาจารย์ที่ปรึกษาร่วม 
+% กรรมการ \\ 
+% \vskip2.0cm
 
 
-%\textbf{ตรวจสอบแล้ว}\vskip1cm
+% %\textbf{ตรวจสอบแล้ว}\vskip1cm
 
-...........................................................................\\
-(อาจารย์ธนวัฒน์ แซ่เอียบ)\\
-ประธานหลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิทยาการคอมพิวเตอร์\\
-คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยา \\
-%\afterpage{\blankpage}
-%\copyrightpage
-\end{center}
-\clearpage
+% ...........................................................................\\
+% (อาจารย์ธนวัฒน์ แซ่เอียบ)\\
+% ประธานหลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิทยาการคอมพิวเตอร์\\
+% คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยา \\
+% %\afterpage{\blankpage}
+% %\copyrightpage
+% \end{center}
+% \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -455,24 +456,24 @@ Application for Nursing shift scheduling
 %%% MAKE AN ACKNOWLEDGEDMENT PAGE
 %%% สร้างกิตติกรรมประกาศ จะขอบคุณใคร อะไร ก็ใส่ตรงนี้
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-%\addtocontents{toc}{\protect\contentsline{chapter}{กิตติกรรมประกาศ}{\thepage}\protect}
-\begin{acknowledgement}     % acknowledgement environment, this is optional
-\baselineskip=8mm
-\setcounter{page}{2}
+% \newpage
+% %\addtocontents{toc}{\protect\contentsline{chapter}{กิตติกรรมประกาศ}{\thepage}\protect}
+% \begin{acknowledgement}     % acknowledgement environment, this is optional
+% \baselineskip=8mm
+% \setcounter{page}{2}
 
-ในการศึกษาวิจัยครั้งนี้ ข้าพเจ้าขอขอบพระคุณ ...
+% ในการศึกษาวิจัยครั้งนี้ ข้าพเจ้าขอขอบพระคุณ ...
 
-\vspace{0.5cm}
-% or \input{acknowledgement.tex} % you need a separate acknowledgement.tex file to include it.
-\begin{flushright}
-\makeauthor
-\end{flushright}
+% \vspace{0.5cm}
+% % or \input{acknowledgement.tex} % you need a separate acknowledgement.tex file to include it.
+% \begin{flushright}
+% \makeauthor
+% \end{flushright}
 
-\end{acknowledgement}
+% \end{acknowledgement}
 
 
-\renewcommand{\arraystretch}{1.1}
+% \renewcommand{\arraystretch}{1.1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -481,19 +482,19 @@ Application for Nursing shift scheduling
 %%% MAKE AN ABSTRACT PAGE
 %%% สร้างบทคัดย่อ ภาษาไทย และภาษาอังกฤษ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-%\addtocontents{toc}{\protect\contentsline{chapter}{บทคัดย่อ}{\thepage}\protect}
-\begin{abstractth}	% เขียนบทคัดย่อภาษาไทย
+% \newpage
+% %\addtocontents{toc}{\protect\contentsline{chapter}{บทคัดย่อ}{\thepage}\protect}
+% \begin{abstractth}	% เขียนบทคัดย่อภาษาไทย
 
-บทคัดย่อภาษาไทย เขียนตรงนี้
+% บทคัดย่อภาษาไทย เขียนตรงนี้
 
 
-\end{abstractth}
+% \end{abstractth}
 
-\newpage
+% \newpage
 
-%\maketitle
-\renewcommand{\arraystretch}{1}
+% %\maketitle
+% \renewcommand{\arraystretch}{1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -542,7 +543,11 @@ Application for Nursing shift scheduling
 \include{chap1}
 \include{chap2}
 \include{chap3}
-\include{chap3_2}
+% \include{Usecase}
+% \include{class}
+% \include{er}
+% \include{Sequence}
+\include{interface}
 %\include{chap5}
 %\include{chap6}
 %\include{chap7}

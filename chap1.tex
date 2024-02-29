@@ -225,10 +225,10 @@
 \begin{table}[h]
     \captionsetup{justification=raggedright,singlelinecheck=false}
     \centering
-    \fontsize{10}{17}\selectfont	
+    \fontsize{8}{10}\selectfont	
     \resizebox{\textwidth}{!}{%
         \begin{tabular}{l c c c c c}
-            \hline
+            \toprule
             \multicolumn{1}{c}{\multirow{2}{*}{ขอบเขตการทำงาน}} & \multicolumn{5}{c}{ระดับของผู้ใช้ในระบบ} \\ \cline{2-6} 
             \multicolumn{1}{c}{} & ผู้ดูแลระบบแอปพลิเคชัน & ผู้ดูแลระบบโรงพยาบาล & ผู้อํานวยการโรงพยาบาล & หัวหน้าพยาบาล & พยาบาล \\ \hline
             จัดการข้อมูลการเข้าสู่ระบบ & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark\\ 
@@ -243,14 +243,14 @@
             แลกเวร & & & &\checkmark & \checkmark\\ 
             การลา & & & &\checkmark &\checkmark\\ 
             ขอเวร & & & & &\checkmark \\ 
-            \hline
+            \toprule
         \end{tabular}%
     }
     \caption{แสดงขอบเขตการทำงานแบ่งตามประเภทของผู้ใช้ในระบบ}
 \end{table}
 
 
-\clearpage
+
 
 \section{ขั้นตอนการดำเนินงาน}
 
@@ -282,20 +282,20 @@
     \centering
     \captionsetup{justification=raggedright,singlelinecheck=false}
     \resizebox{\textwidth}{!}{%
-    \fontsize{10}{17}\selectfont	
+    \fontsize{8}{10}\selectfont	
     \begin{tabular}{l c c c c c c c}
-    \hline
+    \toprule
     \multicolumn{1}{c}{รายการ/กิจกรรม} & ม.ค. & ก.พ. & มี.ค. & เม.ย. & พ.ค. & มิ.ย. & ก.ค. \\ \hline
-    การเสนอหัวข้อโครงงาน & &  & \checkmark & & & \\ 
-    รวบรวมความต้องการของระบบ &\checkmark & & & & & & \\ 
-    ศึกษาทฤษฎีที่เกี่ยวข้อง & &\checkmark & & & & & \\ 
-    การวิเคราะห์และออกแบบระบบ & & \checkmark&\checkmark & & & & \\ 
-    การพัฒนาต้นแบบ Prototype &\checkmark &\checkmark &\checkmark & & & & \\ 
-    การพัฒนาระบบ & & &\checkmark &\checkmark &\checkmark & & \\ 
-    การทดสอบระบบและปรับปรุงแก้ไข & & & & & &\checkmark & \\ 
-    สรุปผลการดำเนินงาน & & & & & & &\checkmark \\ 
-    จัดทำรูปเล่มและนำเสนอโครงงาน & & & & & & &\checkmark \\ 
-    \hline
+    การเสนอหัวข้อโครงงาน & &  & \cellcolor{pink} & & & \\ 
+    รวบรวมความต้องการของระบบ & \cellcolor{blue!15} & & & & & & \\ 
+    ศึกษาทฤษฎีที่เกี่ยวข้อง & &\cellcolor{pink} & & & & & \\ 
+    การวิเคราะห์และออกแบบระบบ & & \cellcolor{blue!15}&\cellcolor{blue!15} & & & & \\ 
+    การพัฒนาต้นแบบ Prototype &\cellcolor{pink} &\cellcolor{pink} &\cellcolor{pink} & & & & \\ 
+    การพัฒนาระบบ & & &\cellcolor{blue!15} &\cellcolor{blue!15} &\cellcolor{blue!15} & & \\ 
+    การทดสอบระบบและปรับปรุงแก้ไข & & & & & &\cellcolor{pink} & \\ 
+    สรุปผลการดำเนินงาน & & & & & & &\cellcolor{blue!15} \\ 
+    จัดทำรูปเล่มและนำเสนอโครงงาน & & & & & & &\cellcolor{pink} \\ 
+    \toprule
     \end{tabular}%
     }
     \caption{แผนการดำเนินงาน}
