@@ -384,13 +384,13 @@ Application for Nursing shift scheduling
 \begin{center} % กำหนดชื่อเรื่อง ภาษาไทย และภาษาอังกฤษ
 \Large{\textbf{แอปพลิเคชันจัดตารางเวรพยาบาล\\
 (Application for Nursing shift scheduling)\\}}
-\vspace{7cm}
-\textbf{นายสิรวิชญ์ คำชุ่ม\\} % ชื่อนามสกุลผู้เขียน
-\vspace{7cm}
-\textbf{ภาคนิพนธ์เสนอมหาวิทยาลัยพะเยา เพื่อเป็นส่วนหนึ่งของการศึกษา\\
-หลักสูตรปริญญาตรี วิทยาศาสตร์บัณฑิต\\
-สาขาวิชาวิทยาการคอมพิวเตอร์\\
-ลิขสิทธิ์เป็นของมหาวิทยาลัยพะเยา}
+\vspace{8cm}
+\textbf{นายสิรวิชญ์ คำชุ่ม \hspace{0cm} 64020822\\} % ชื่อนามสกุลผู้เขียน
+\vspace{8cm}
+\textbf{ภาคนิพนธ์เสนอเป็นส่วนหนึ่งของการศึกษา\\
+รายวิชา 225391 โครงงานวิทยาการคอมพิวเตอร์ 1\\
+ภาคการศึกษาต้น ปีการศึกษา 2566\\
+มหาวิทยาลัยพะเยา}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -541,29 +541,53 @@ Application for Nursing shift scheduling
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include{chap1}
-% \include{chap2}
-% \include{chap3}
-% \include{Usecase}
-% \include{class}
-% \include{er}
-% \include{Sequence}
+\include{chap2}
+\include{chap3}
+\include{Usecase}
+\include{class}
+\include{er}
+\include{Sequence}
 \include{interface}
 %\include{chap5}
 %\include{chap6}
 %\include{chap7}
 %\include{chap8}
 %\include{chap9}
+\thispagestyle{empty} % Remove page number
+\section{}
+
+\vspace{9cm}
+
+\begin{center}
+\fontsize{18pt}{22pt}\selectfont 
+\textbf{บรรณานุกรม}
+\end{center}
+
+\normalsize 
+\clearpage
 \include{references}
 
 
 
 %\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\renewcommand{\bibname}{บรรณานุกรม}
-%\bibliographystyle{myref}
-%\nocite{*}
-%\bibliography{References}
+% \renewcommand{\bibname}{บรรณานุกรม}
+% \bibliographystyle{myref}
+% \nocite{*}
+% \bibliography{References}
+\renewcommand{\thesubsubsection}{}
 
+\thispagestyle{empty} % Remove page number
+\subsubsection{}
+
+\vspace{9cm}
+
+\begin{center}
+\fontsize{18pt}{22pt}\selectfont 
+\textbf{ประวัติผู้วิจัย}
+\end{center}
+
+\normalsize 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -572,13 +596,12 @@ Application for Nursing shift scheduling
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 
-% not show ประวัติผู้วิจัย
-% \renewcommand{\arraystretch}{1}
-% \makebiography                          % Generate your biography page
-% %\makeWorkExpr                           % Generate your work experiences
-% \makeEduBG
-%\makePublication
-%\makePresentation
+% ประวัติผู้วิจัย
+\renewcommand{\arraystretch}{1}
+\makebiography                          % Generate your biography page
+%\makeWorkExpr                           % Generate your work experiences
+\makeEduBG
+
 
 \end{document}
 
