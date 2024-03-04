@@ -1,0 +1,152 @@
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ภาพแสดงขั้นตอนของระบบวงจรชีวิตการพัฒนาระบบ (SDLC)\relax }}{12}{}%
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram\relax }}{19}{}%
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Class Diagram\relax }}{25}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Entity-Relationship Diagram\relax }}{26}{}%
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Diagram Login\relax }}{32}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram Edit Username\relax }}{32}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram Edit Password\relax }}{33}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram Logout\relax }}{33}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram AddShifts\relax }}{33}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram EditShifts\relax }}{34}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram DeleteShifts\relax }}{34}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram ViewFriendShifts\relax }}{34}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram AddSchedule\relax }}{34}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram EditSchedule\relax }}{35}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sequence Diagram DeleteSchedule\relax }}{35}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sequence Diagram ExportSchedule\relax }}{35}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Sequence Diagram ApproveExchange\relax }}{35}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Sequence Diagram ApproveLeave\relax }}{36}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sequence Diagram ApproveSchedule\relax }}{36}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sequence Diagram ApprovePlan\relax }}{36}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Sequence Diagram ViewSchedule\relax }}{36}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Sequence Diagram ExchangeShifts\relax }}{37}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Sequence Diagram EditExchange\relax }}{37}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Sequence Diagram DeleteExchange\relax }}{37}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Sequence Diagram HistoryExchange\relax }}{37}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Sequence Diagram ProgresExchange\relax }}{37}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Sequence Diagram AddLeave\relax }}{38}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Sequence Diagram EditLeave\relax }}{38}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Sequence Diagram DeleteLeave\relax }}{38}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Sequence Diagram HistoryLeave\relax }}{38}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Sequence Diagram ProgresLeave\relax }}{38}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Sequence Diagram ViewRole\relax }}{39}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Sequence Diagram AddRole\relax }}{39}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Sequence Diagram ChangeRole\relax }}{39}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Sequence Diagram editRole\relax }}{39}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Sequence Diagram DeleteRole\relax }}{39}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Sequence Diagram AddHospital\relax }}{40}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Sequence Diagram EditHospital\relax }}{40}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Sequence Diagram DeleteHospital\relax }}{40}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Sequence Diagram AddHospitalAdmin\relax }}{40}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Sequence Diagram DeleteHospitalAdmin\relax }}{40}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Sequence Diagram AddNurseLevel\relax }}{41}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Sequence Diagram SetNurseLevel\relax }}{41}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Sequence Diagram EditNurseLevel\relax }}{41}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.44}{\ignorespaces Sequence Diagram DeleteNurseLevel\relax }}{41}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Sequence Diagram ViewMorningStatistics\relax }}{41}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Sequence Diagram ViewAfternoonStatistics\relax }}{42}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Sequence Diagram ViewNightStatistics\relax }}{42}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Sequence Diagram ViewOTStatistics\relax }}{42}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Sequence Diagram ViewExchangeStatistics\relax }}{42}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Sequence Diagram ViewNurseStatistics\relax }}{42}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.51}{\ignorespaces แสดงหน้าการเข้าสู่ระบบ\relax }}{43}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.52}{\ignorespaces แสดงหน้าตารางเวร\relax }}{43}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.53}{\ignorespaces แสดงหน้าตารางเวร\relax }}{44}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.54}{\ignorespaces แสดงหน้าจัดตารางเวร\relax }}{44}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.55}{\ignorespaces แสดงหน้าการแลกเวร\relax }}{44}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.56}{\ignorespaces แสดงหน้าสถานะการแลกเวร\relax }}{45}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.57}{\ignorespaces แสดงหน้าประวัติการทำงานของพยาบาล\relax }}{45}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.58}{\ignorespaces แสดงหน้าอนุมัติการแลกเวร\relax }}{45}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.59}{\ignorespaces แสดงหน้าเปรียบเทียบก่อนยืนยันการแลกเวร\relax }}{46}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.60}{\ignorespaces แสดงหน้าการลา\relax }}{46}{}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.61}{\ignorespaces แสดงหน้าการกรอกรายละเอียดลา\relax }}{46}{}%
