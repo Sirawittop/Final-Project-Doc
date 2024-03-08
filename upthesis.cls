@@ -803,12 +803,12 @@
 %
 \newcounter{figure}[chapter]
 \def\thefigure{\@arabic\c@figure}
-\def\thefigure{\thechapter.\@arabic\c@figure}  % numbering for figures, they are numbered for each chapters
-\def\fps@figure{tbp}                           % default placement for figures
+\def\thefigure{\thechapter.\@arabic\c@figure}  
+\def\fps@figure{tbp}                         
 \def\ftype@figure{1}
 \def\ext@figure{lof}
 \def\fnum@figure{ภาพที่ \thefigure}
-%\def\fnum@figure{Figure \thefigure}
+% \def\fnum@figure{Figure \thefigure}
 \def\figure{\@float{figure}}
 \let\endfigure\end@float
 \@namedef{figure*}{\@dblfloat{figure}}
@@ -819,15 +819,13 @@
 %
 \newcounter{table}[chapter]
 \def\thetable{\@arabic\c@table}
-\def\thetable{\thechapter.\@arabic\c@table}  % numbering for tables, they are numbered for each chapters
-\def\fps@table{tbp}                          % default placement for tables
+\def\thetable{\thechapter.\@arabic\c@table}  
+\def\fps@table{tbp}                          
 \def\ftype@table{2}
 \def\ext@table{lot}
 \def\fnum@table{ตารางที่ \thetable}
-%\def\fnum@table{Table \thetable}
 \def\table{\@float{table}}
-\renewcommand{\arraystretch}{1.3}  % determines the distance between the rows of table
-                                   % it is a multiplying factor
+\renewcommand{\arraystretch}{1.3}  
 \let\endtable\end@float
 \@namedef{table*}{\@dblfloat{table}}
 \@namedef{endtable*}{\end@dblfloat}

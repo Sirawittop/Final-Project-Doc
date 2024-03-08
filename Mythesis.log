@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  1 MAR 2024 21:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.30)  8 MAR 2024 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,20 +1197,20 @@ ai.trsl' found. on input line 357.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 (Font)              scaled to size 21.25432pt on input line 370.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 371.
+(Font)              scaled to size 21.25432pt on input line 370.
 [1
 
 
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 493.
+(Font)              scaled to size 17.71193pt on input line 492.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 493.
+(Font)              scaled to size 17.71193pt on input line 492.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 17.71193pt on input line 493.
+(Font)              scaled to size 17.71193pt on input line 492.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 493.
+(Font)              scaled to size 14.75995pt on input line 492.
  (./Mythesis.toc
 \thai@year=\count389
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
@@ -1255,15 +1255,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/sl' in size <12> not avail
 able
 (Font)              Font shape `TU/THSarabunNew(1)/m/it' tried instead on input
- line 36.
+ line 38.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 36.
+(Font)              scaled to size 14.75995pt on input line 38.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/sl' in size <12> not avail
 able
 (Font)              Font shape `TU/THSarabunNew(0)/m/it' tried instead on input
- line 36.
+ line 38.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
-(Font)              scaled to size 14.75995pt on input line 36.
+(Font)              scaled to size 14.75995pt on input line 38.
  [2] [3
 
 ] [4]
@@ -1271,9 +1271,9 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/it' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 9.83997pt on input line 228.
+(Font)              scaled to size 9.83997pt on input line 230.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 6.14998pt on input line 248.
+(Font)              scaled to size 6.14998pt on input line 250.
  [6] [7]) [8
 
 ]
@@ -1659,9 +1659,9 @@ File: ui11.png Graphic file (type bmp)
 
 ] [44] [45] [46]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 22.13992pt on input line 548.
+(Font)              scaled to size 22.13992pt on input line 547.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
-(Font)              scaled to size 22.13992pt on input line 549.
+(Font)              scaled to size 22.13992pt on input line 548.
  [47
 
 
@@ -1683,7 +1683,7 @@ Underfull \hbox (badness 1199) in paragraph at lines 43--44
 
 
 ]
-Overfull \hbox (58.96832pt too wide) in paragraph at lines 589--589
+Overfull \hbox (58.96832pt too wide) in paragraph at lines 588--588
 []  
  []
 
